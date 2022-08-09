@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e03aac4809269b46a0c09b9f381bd01, type: 3}
+  m_Name: Plant
+  m_EditorClassIdentifier: 
+  buildingName: Plant
+  rotationType: 3
+  tags:
+  - plant
+  prefab: {fileID: 5157571471316399104, guid: 61ffccaa86e0f874e8bd3aad0c2eecf9, type: 3}
+  fastPlacementOn: 1
+  destroyWhenPlacedOn: 1
+  size: 1
+  randomCenterOffset: 0.3
+  randomLengthDifference: 0.2
+  randomColorOffset: 0.3
+  drops: []

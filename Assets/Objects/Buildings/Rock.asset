@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e03aac4809269b46a0c09b9f381bd01, type: 3}
+  m_Name: Rock
+  m_EditorClassIdentifier: 
+  buildingName: Rock
+  rotationType: 3
+  tags:
+  - rock
+  prefab: {fileID: 8023977070824698851, guid: 92e29758bac043c4b96b1fcf06e6f047, type: 3}
+  fastPlacementOn: 0
+  destroyWhenPlacedOn: 0
+  size: 1
+  randomCenterOffset: 0.1
+  randomLengthDifference: 1
+  randomColorOffset: 0
+  drops:
+  - item: {fileID: 11400000, guid: 213916e8427fbe145bbb1d1cfdaf08b4, type: 2}
+    minAmount: 1
+    maxAmount: 3

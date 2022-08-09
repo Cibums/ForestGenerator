@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49e9a031f87d382428ac43d297c2c25f, type: 3}
+  m_Name: SmallRedMushroom
+  m_EditorClassIdentifier: 
+  buildingName: Small Red Mushroom
+  rotationType: 1
+  tags:
+  - mushroom
+  prefab: {fileID: 5190603318553635397, guid: af28c0e6f80a5b64584eee11c1ab3e51, type: 3}
+  fastPlacementOn: 1
+  destroyWhenPlacedOn: 1
+  size: 1
+  randomCenterOffset: 0.3
+  randomLengthDifference: 0
+  randomColorOffset: 0.2
+  nextStep: {fileID: 11400000, guid: a6a4f5280b3193b48a05875b69bfd16b, type: 2}
+  secondsMin: 600
+  secondsMax: 3600

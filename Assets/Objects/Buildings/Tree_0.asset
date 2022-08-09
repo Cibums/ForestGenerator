@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49e9a031f87d382428ac43d297c2c25f, type: 3}
+  m_Name: Tree_0
+  m_EditorClassIdentifier: 
+  buildingName: Tree
+  rotationType: 3
+  tags:
+  - tree
+  prefab: {fileID: 8737012870467442113, guid: 212e8a92206537f43ba8e2a2a10d95e5, type: 3}
+  fastPlacementOn: 1
+  destroyWhenPlacedOn: 0
+  size: 1
+  randomCenterOffset: 0.1
+  randomLengthDifference: 0.1
+  randomColorOffset: 0.4
+  drops:
+  - item: {fileID: 11400000, guid: 2a96d9fbf80b404498ccc0d07e4f0ad1, type: 2}
+    minAmount: 1
+    maxAmount: 5
+  nextStep: {fileID: 11400000, guid: 0249668e1d7c754439612aafa5a7fa07, type: 2}
+  secondsMin: 600
+  secondsMax: 6000
