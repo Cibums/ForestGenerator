@@ -54,6 +54,8 @@ public class GameController : MonoBehaviour
 
     private void Start()
     {
+        player.position = new Vector3(worldSize / 2, 0, worldSize / 2);
+
         timeSpeed = 0;
         if (File.Exists(Application.persistentDataPath + "/world.xml"))
         {

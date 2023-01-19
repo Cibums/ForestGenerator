@@ -844,7 +844,7 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 96
-  worldSize: 150
+  worldSize: 40
   groundTexture: []
   loadedEntities: []
   loadedItems: []
